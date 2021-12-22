@@ -1,16 +1,25 @@
+.body
+{
+    width: 100%;
+}
 .navigation
 {
-    width: auto;
-    height: 200px;
-    
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    text-align: center;
+    box-shadow: 0px 0px 1px black;
 }
-.icon
-{
-    
-}
-.menu
+.menubuttons
 {
     color: #D9B601;
+    font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 30px;
+    text-align: center;
+}
+.photo
+{
+    margin-right: 900px;
     
 }
