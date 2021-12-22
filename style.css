@@ -3,6 +3,14 @@ body
     width: 100%;
     background-color:#F3DB00;
 }
+a
+{
+    text-decoration: none;
+}
+.photo
+{
+    margin-right: 900px;
+}
 .navigation
 {
     width: auto;
@@ -17,14 +25,6 @@ body
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
     padding-left: 30px;
     text-align: center;
-}
-.photo
-{
-    margin-right: 900px;
-}
-a
-{
-    text-decoration: none;
 }
 .h11
 {
@@ -58,7 +58,7 @@ a
 {
     color: #988000;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
-    font: 26px;
+    font-size: 18px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -66,8 +66,10 @@ a
 }
 .footertext
 {
+    width: auto;
     padding-top: 50px;
     padding-left: 50px;
+    text-align: center;
 }
 .textmarg
 {
@@ -75,6 +77,5 @@ a
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
     margin-right: 1400px;
     font-size: 20px;
-    padding-left: 30px;
     text-align: center;
 }
